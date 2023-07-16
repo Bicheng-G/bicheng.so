@@ -9,11 +9,11 @@ import {
   BilibiliIcon,
   GitHubIcon,
   type IconProps,
+  LinkedInIcon,
   MailIcon,
   TelegramIcon,
   TwitterIcon,
   YouTubeIcon,
-  LinkedInIcon,
 } from '~/assets'
 import { Tooltip } from '~/components/ui/Tooltip'
 
