@@ -15,7 +15,7 @@ import { Button } from '~/components/ui/Button'
 const formId = '5108903'
 
 export const newsletterFormSchema = z.object({
-  email: z.string().email({ message: '邮箱地址不正确' }).nonempty(),
+  email: z.string().email({ message: 'Invalid Email Address' }).nonempty(),
   formId: z.string().nonempty(),
 })
 export type NewsletterForm = z.infer<typeof newsletterFormSchema>
@@ -79,17 +79,18 @@ export function Newsletter({ subCount }: { subCount?: string }) {
       <input type="hidden" className="hidden" {...register('formId')} />
       <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <TiltedSendIcon className="h-5 w-5 flex-none" />
-        <span className="ml-2">动态更新</span>
+        <span className="ml-2">Subscribe to Newsletter</span>
       </h2>
       <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
-        <span>喜欢我的内容的话不妨订阅支持一下 🫶</span>
+        <span>Enjoy my content? </span>
         <br />
         {subCount && (
           <span>
-            加入其他 <span className="font-medium">{subCount}</span> 位订阅者，
+             Subscribe and join the other <span className="font-medium">{subCount}</span> subscribers. 🫶
           </span>
         )}
-        <span>每月一封，随时可以取消订阅。</span>
+        <br />
+        <span><i>Get sporadic updates, opt out anytime.</i></span>
       </p>
       <AnimatePresence mode="wait">
         {!isSubscribed ? (
@@ -101,8 +102,8 @@ export function Newsletter({ subCount }: { subCount?: string }) {
           >
             <input
               type="email"
-              placeholder="你的邮箱"
-              aria-label="电子邮箱"
+              placeholder="Your email "
+              aria-label="Email"
               required
               className="min-w-0 flex-auto appearance-none rounded-lg border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] placeholder:text-zinc-400 focus:border-lime-500 focus:outline-none focus:ring-4 focus:ring-lime-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-lime-400/50 dark:focus:ring-lime-400/5 sm:text-sm"
               {...register('email')}
@@ -112,7 +113,7 @@ export function Newsletter({ subCount }: { subCount?: string }) {
               className="ml-2 flex-none"
               disabled={isSubmitting}
             >
-              订阅
+              Subscribe
             </Button>
           </motion.div>
         ) : (
@@ -122,7 +123,7 @@ export function Newsletter({ subCount }: { subCount?: string }) {
             animate={{ opacity: 1, y: 0 }}
             exit="initial"
           >
-            请查收订阅确认邮件 🥳
+            Please check your inbox for the subscription confirmation email. 🥳
           </motion.p>
         )}
       </AnimatePresence>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'Bicheng, Gu Bicheng, Bicheng Gu',
   themeColor: [
     { media: '(prefers-color-scheme: dark)', color: '#000212' },
     { media: '(prefers-color-scheme: light)', color: '#fafafa' },
@@ -41,10 +41,10 @@ export const metadata: Metadata = {
       template: '%s | Cali Castle',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
-    locale: 'zh_CN',
+    siteName: 'Bicheng Gu',
+    locale: 'en_SG',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://bicheng.me',
   },
   twitter: {
     site: '@thecalicastle',
@@ -69,7 +69,7 @@ export default function RootLayout({
   return (
     <ClerkProvider localization={zhCN}>
       <html
-        lang="zh-CN"
+        lang="en_SG"
         className={`${sansFont.variable} m-0 h-full p-0 font-sans antialiased`}
         suppressHydrationWarning
       >

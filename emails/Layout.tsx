@@ -44,38 +44,38 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://cali.so"
+                  href="https://bicheng.me"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>Bicheng Gu</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                Product, Data, Explorer, Father of one
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://cali.so/twitter"
+                  href="https://bicheng.me/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/youtube"
+                  href="https://bicheng.me/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/github"
+                  href="https://bicheng.me/github"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/bilibili"
+                  href="https://bicheng.me/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩

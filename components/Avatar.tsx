@@ -3,7 +3,7 @@ import { clsxm } from '@zolplay/utils'
 import Image from 'next/image'
 import Link, { type LinkProps } from 'next/link'
 
-import portraitImage from '~/assets/Portrait.png'
+import portraitImage from '~/assets/avatar.gif'
 import portraitAltImage from '~/assets/PortraitAlt.jpg'
 
 function AvatarContainer({ className, ...props }: ComponentProps) {
@@ -33,7 +33,7 @@ function AvatarImage({
 }: AvatarImageProps) {
   return (
     <Link
-      aria-label="主页"
+      aria-label="Home"
       className={clsxm(className, 'pointer-events-auto')}
       href={href ?? '/'}
       {...props}

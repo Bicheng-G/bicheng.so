@@ -9,12 +9,12 @@ import { Tooltip } from '~/components/ui/Tooltip'
 
 const themes = [
   {
-    label: '浅色模式',
+    label: '浅Light mode',
     value: 'light',
     icon: SunIcon,
   },
   {
-    label: '深色模式',
+    label: 'Dark mode',
     value: 'dark',
     icon: MoonIcon,
   },
@@ -44,7 +44,7 @@ export function ThemeSwitcher() {
         <Tooltip.Trigger asChild>
           <button
             type="button"
-            aria-label="切换颜色主题"
+            aria-label="Switch theme"
             className="group rounded-full bg-gradient-to-b from-zinc-50/50 to-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:from-zinc-900/50 dark:to-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
             onClick={toggleTheme}
           >

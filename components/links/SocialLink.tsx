@@ -25,6 +25,7 @@ type Platform =
   | 'bilibili'
   | 'mail'
   | 'rss'
+  | 'linkedin'
 type PlatformInfo = {
   icon: IconType
   platform: Platform
@@ -50,10 +51,15 @@ const iconMapper: { [key: string]: PlatformInfo } = {
   '(?:bilibili.com)': {
     icon: BilibiliIcon,
     platform: 'bilibili',
-    label: '哔哩哔哩',
+    label: 'Bilibili',
   },
-  '(?:mailto:)': { icon: MailIcon, platform: 'mail', label: '邮箱地址' },
-  '(?:feed.xml)': { icon: AtomIcon, platform: 'rss', label: 'RSS 订阅' },
+  '(?:linkedin.com)': {
+    icon: BilibiliIcon,
+    platform: 'linkedin',
+    label: 'Linkedin',
+  },
+  '(?:mailto:)': { icon: MailIcon, platform: 'mail', label: 'Email Address' },
+  '(?:feed.xml)': { icon: AtomIcon, platform: 'rss', label: 'RSS Subscription' },
 }
 
 function getIconForUrl(url: string): PlatformInfo | undefined {

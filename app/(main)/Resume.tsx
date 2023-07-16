@@ -2,10 +2,10 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
+import bokeLivingLogo from '~/assets/company/bokeliving.png'
 import abletiveLogo from '~/assets/company/abletive.png'
 import vvsLogo from '~/assets/company/vvs.png'
-import zolplayLogo from '~/assets/company/zolplay.png'
+import tagrainLogo from '~/assets/company/tagrain.png'
 
 type Resume = {
   company: string
@@ -16,36 +16,22 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '深圳市佐玩信息技术有限公司',
-    title: '创始人 CEO',
-    logo: zolplayLogo,
-    start: '2021',
+    company: 'Tagrain',
+    title: 'Product Analyst',
+    logo: tagrainLogo,
+    start: '2020',
     end: {
-      label: '至今',
+      label: 'Present',
       dateTime: new Date().getFullYear(),
     },
   },
   {
-    company: 'very very spaceship',
-    title: '软件工程师',
-    logo: vvsLogo,
-    start: '2018',
+    company: 'Boke Living',
+    title: 'Self Employed',
+    logo: bokeLivingLogo,
+    start: '2019',
     end: '2020',
-  },
-  {
-    company: '8ninths Inc.',
-    title: 'AR & 全栈工程师',
-    logo: eightNinthsLogo,
-    start: '2017',
-    end: '2018',
-  },
-  {
-    company: 'Abletive',
-    title: '创始人',
-    logo: abletiveLogo,
-    start: '2014',
-    end: '2016',
-  },
+  }
 ]
 
 function getRoleDate(date: Resume['start'] | Resume['end'], label = true) {
@@ -65,7 +51,7 @@ export function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-5 w-5 flex-none" />
-        <span className="ml-2">工作经历</span>
+        <span className="ml-2">Experience</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -79,18 +65,18 @@ export function Resume() {
               />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
-              <dt className="sr-only">公司</dt>
+              <dt className="sr-only">Company</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
                 {role.company}
               </dd>
-              <dt className="sr-only">职位</dt>
+              <dt className="sr-only">Job Title</dt>
               <dd className="text-xs text-zinc-500 dark:text-zinc-400">
                 {role.title}
               </dd>
-              <dt className="sr-only">日期</dt>
+              <dt className="sr-only">Date</dt>
               <dd
                 className="ml-auto text-xs text-zinc-500/80 dark:text-zinc-400/80"
-                aria-label={`${getRoleDate(role.start)} 到 ${getRoleDate(
+                aria-label={`${getRoleDate(role.start)} to ${getRoleDate(
                   role.end
                 )}`}
               >

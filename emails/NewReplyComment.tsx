@@ -6,7 +6,7 @@ import { Button, Heading, Hr, Img, Link, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewReplyCommentEmail = ({
-  postLink = 'https://cali.so',
+  postLink = 'https://bicheng.me',
   postTitle = '测试文章 Lorem ipsum dolor sit amet, consectetur adipisicing elit',
   postImageUrl = 'https://cn.zolplay.com/api/og?title=测试文章',
   userFirstName = 'Cali',
@@ -26,7 +26,7 @@ const NewReplyCommentEmail = ({
     firstName: userFirstName,
     lastName: userLastName,
   })
-  const title = `👋 有人回复了你的评论`
+  const title = `👋 Someone replied to your message`
 
   return (
     <Layout previewText={title}>
@@ -53,11 +53,11 @@ const NewReplyCommentEmail = ({
         </Text>
         {postLink && (
           <Text className="text-[14px] leading-[24px] text-black">
-            <b>{user}</b>&nbsp;在 「
+            <b>{user}</b>&nbsp;replied to 「
             <Link href={postLink} className="font-bold underline">
               {postTitle}
             </Link>
-            」中回复了你：
+            」：
           </Text>
         )}
       </Section>
@@ -76,13 +76,13 @@ const NewReplyCommentEmail = ({
             className="rounded-xl bg-zinc-900 text-center text-[12px] font-semibold text-white no-underline"
             href={postLink}
           >
-            查看文章
+            Check original post
           </Button>
         )}
       </Section>
       {postLink && (
         <Text className="text-[14px] leading-[24px] text-black">
-          或者复制下面的链接到你的浏览器中进行访问：
+          or copy the link and open in browser：
           <br />
           <Link href={postLink} className="text-blue-600 no-underline">
             {postLink}
