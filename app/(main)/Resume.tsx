@@ -3,8 +3,8 @@ import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
 import bokeLivingLogo from '~/assets/company/bokeliving.png'
-import abletiveLogo from '~/assets/company/abletive.png'
-import vvsLogo from '~/assets/company/vvs.png'
+// import abletiveLogo from '~/assets/company/abletive.png'
+// import vvsLogo from '~/assets/company/vvs.png'
 import tagrainLogo from '~/assets/company/tagrain.png'
 
 type Resume = {
