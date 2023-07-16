@@ -28,7 +28,7 @@ export default function ProjectsPage() {
           My past project adventures.
         </h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I&apos;ve been working on a variety of small projects, and this is a collection of the ones I think are pretty good. It's the best testament to my attempts and explorations in the tech field.
+          I&apos;ve been working on a variety of small projects, and this is a collection of the ones I think are pretty good. It&apos;s the best testament to my attempts and explorations in the tech field.
         </p>
       </header>
       <div className="mt-16 sm:mt-20">
