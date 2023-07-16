@@ -3,6 +3,6 @@ export const navigationItems = [
   { href: '/blog', text: 'Blog' },
   { href: '/projects', text: 'Project' },
   { href: '/guestbook', text: 'Guestbook' },
-  { href: '/ama', text: 'AMA' },
+  // { href: '/ama', text: 'AMA' },
   // { href: '/about', text: 'About' },
 ]

@@ -13,6 +13,7 @@ import {
   TelegramIcon,
   TwitterIcon,
   YouTubeIcon,
+  LinkedInIcon,
 } from '~/assets'
 import { Tooltip } from '~/components/ui/Tooltip'
 
@@ -54,7 +55,7 @@ const iconMapper: { [key: string]: PlatformInfo } = {
     label: 'Bilibili',
   },
   '(?:linkedin.com)': {
-    icon: BilibiliIcon,
+    icon: LinkedInIcon,
     platform: 'linkedin',
     label: 'Linkedin',
   },

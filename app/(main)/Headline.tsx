@@ -106,11 +106,11 @@ export function Headline() {
           aria-label="youtube"
           platform="youtube"
         /> */}
-        {/* <SocialLink
-          href="https://bicheng.me/bilibili"
+        <SocialLink
+          href="https://bicheng.me/linkedin"
           aria-label="linkedin"
           platform="linkedin"
-        /> */}
+        />
         <SocialLink
           href="https://bicheng.me/github"
           aria-label="github"
