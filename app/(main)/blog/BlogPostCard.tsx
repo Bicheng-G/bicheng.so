@@ -49,7 +49,7 @@ export function BlogPostCard({ post, views }: { post: Post; views: number }) {
               <CalendarIcon />
               <span>
                 {parseDateTime({ date: new Date(publishedAt) })?.format(
-                  'YYYY/MM/DD'
+                  'DD/MM/YYYY'
                 )}
               </span>
             </span>
@@ -67,7 +67,7 @@ export function BlogPostCard({ post, views }: { post: Post; views: number }) {
 
             <span className="inline-flex items-center space-x-1">
               <HourglassIcon />
-              <span>{readingTime.toFixed(0)} minutes</span>
+              <span>{readingTime.toFixed(0)} min read</span>
             </span>
           </span>
         </span>
