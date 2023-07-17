@@ -6,7 +6,7 @@ import { Container } from '~/components/ui/Container'
 import { BlogPosts } from './BlogPosts'
 
 const description =
-  "I've always had the idea of becoming a self-media for self-improvement. Recently, I was inspired by Shawn Wang (@swyx) and his concept of 'learning in public'. I've decided to start consolidating my knowledge and producing exhaust. The topics I'm interested in will mainly revolve around products, AI, data, self-actualization, metacognition, and parenting."
+  "Recently, I was inspired by Shawn Wang (@swyx) and his concept of 'learning in public'. I've decided to start consolidating my knowledge and producing exhaust. The topics I'm interested in will mainly revolve around products, AI, data, self-actualization, metacognition, and parenting."
 export const metadata = {
   title: 'My Blog',
   description,
@@ -27,7 +27,7 @@ export default function BlogPage() {
     <Container className="mt-16 sm:mt-24">
       <header className="max-w-2xl">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          My learning exhausts
+          My Learning Exhausts
         </h1>
         <p className="my-6 text-base text-zinc-600 dark:text-zinc-400">
           <Balancer>{description}</Balancer>

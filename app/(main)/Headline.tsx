@@ -80,8 +80,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          Hi, I am Bicheng.
-          Recently graduated from National University of Singapore (NUS) with a degree in Business Analytics. I am excited to keep learning new skills in a challenging and fast-paced environment. Below are some of my previous works, thanks for visiting!
+          Hi, I am Bicheng.{'\n'}
+          Recently graduated from National University of Singapore (NUS) with a degree in Business Analytics. I am excited to keep learning new skills in a challenging and fast-paced environment. {'\n'}
+          Thanks for visiting!
         </Balancer>
       </motion.p>
       <motion.div
@@ -126,7 +127,7 @@ export function Headline() {
           aria-label="email"
           platform="mail"
         />
-        <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
+        <SocialLink href="/feed.xml" platform="rss" aria-label="RSS Subscription" />
       </motion.div>
     </div>
   )
