@@ -121,7 +121,7 @@ export async function Footer() {
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} Bicheng Gu. Open source project by&nbsp; 
+                &copy; {new Date().getFullYear()} Bicheng Gu. Website design by&nbsp; 
                 <PeekabooLink href="https://github.com/CaliCastle/cali.so">
                   Cali Castle 
                 </PeekabooLink>

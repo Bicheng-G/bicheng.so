@@ -296,7 +296,7 @@ function Root({ className, blockId }: CommentableProps) {
                         >
                           <Button type="button">
                             <UserArrowLeftIcon className="mr-1 h-5 w-5" />
-                            登录后参与讨论
+                            Login to join discussion
                           </Button>
                         </SignInButton>
                       </div>
@@ -518,8 +518,8 @@ function CommentTextarea({ isLoading, onSubmit }: CommentTextareaProps) {
             className="block flex-1 shrink-0 resize-none border-0 bg-transparent p-0 text-sm leading-6 text-zinc-800 placeholder-zinc-400 outline-none focus:outline-none focus:ring-0 dark:text-zinc-200 dark:placeholder-zinc-500"
             placeholder={
               replyingTo
-                ? `回复 ${parseDisplayName(replyingTo.userInfo)} 的评论...`
-                : '留下你的评论吧...'
+                ? `Reply to ${parseDisplayName(replyingTo.userInfo)} 's comment...`
+                : 'Leave your comment...'
             }
             value={comment}
             onChange={(e) => setComment(e.target.value)}
@@ -545,7 +545,7 @@ function CommentTextarea({ isLoading, onSubmit }: CommentTextareaProps) {
             comment.length > 0 ? 'opacity-100' : 'opacity-0'
           )}
         >
-          支持 <b>Markdown</b> 与{' '}
+          Supports <b>Markdown</b> and{' '}
           <RichLink
             favicon={false}
             href="https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"
@@ -574,7 +574,7 @@ function CommentTextarea({ isLoading, onSubmit }: CommentTextareaProps) {
                 {comment.length}/{MAX_COMMENT_LENGTH}
               </span>
 
-              <ElegantTooltip content={isPreviewing ? '关闭预览' : '预览一下'}>
+              <ElegantTooltip content={isPreviewing ? 'Close' : 'Preview'}>
                 <motion.button
                   className="appearance-none"
                   whileHover={{ scale: 1.05 }}
@@ -591,7 +591,7 @@ function CommentTextarea({ isLoading, onSubmit }: CommentTextareaProps) {
                 </motion.button>
               </ElegantTooltip>
 
-              <ElegantTooltip content="发送">
+              <ElegantTooltip content="Send">
                 <motion.button
                   className="appearance-none"
                   whileHover={{ scale: 1.05 }}
