@@ -1,6 +1,6 @@
-import { Manrope } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
-const sansFont = Manrope({
+const sansFont = Inter({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-sans',

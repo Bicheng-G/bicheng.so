@@ -17,11 +17,21 @@ type Resume = {
 const resume: Resume[] = [
   {
     company: 'Tagrain',
+    title: 'Senior Product Analyst',
+    logo: tagrainLogo,
+    start: '2023',
+    end: {
+      label: 'Present',
+      dateTime: new Date().getFullYear(),
+    },
+  },
+  {
+    company: 'Tagrain',
     title: 'Product Analyst',
     logo: tagrainLogo,
     start: '2020',
     end: {
-      label: 'Present',
+      label: '2023',
       dateTime: new Date().getFullYear(),
     },
   },
