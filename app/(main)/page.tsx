@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import React from 'react'
 
 import { BlogPosts } from '~/app/(main)/blog/BlogPosts'
@@ -30,6 +31,7 @@ export default function BlogHomePage() {
           </aside>
         </div>
       </Container>
+      <Analytics />
     </>
   )
 }
