@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     url: 'https://bicheng.me',
   },
   twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
+    site: '@just_pulsar',
+    creator: '@just_pulsar',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: url('/'),
     types: {
-      'application/rss+xml': [{ url: 'rss', title: 'RSS 订阅' }],
+      'application/rss+xml': [{ url: 'rss', title: 'RSS Subscribe' }],
     },
   },
 }
