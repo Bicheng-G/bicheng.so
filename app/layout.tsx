@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     url: 'https://bicheng.me',
   },
   twitter: {
-    site: '@just_pulsar',
-    creator: '@just_pulsar',
+    site: '@just_cavin',
+    creator: '@just_cavin',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,
