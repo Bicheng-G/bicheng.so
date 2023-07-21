@@ -109,26 +109,33 @@ module.exports = {
           // Headings
           h1: {
             fontSize: theme('fontSize.3xl')[0],
-            marginTop: theme('spacing.16'),
-            marginBottom: theme('spacing.4'),
+            // marginTop: theme('spacing.16'),
+            // marginBottom: theme('spacing.4'),
             color: 'var(--tw-prose-headings)',
             fontWeight: theme('fontWeight.extrabold'),
           },
           h2: {
             fontSize: theme('fontSize.2xl')[0],
-            marginTop: theme('spacing.16'),
-            marginBottom: theme('spacing.4'),
+            // marginTop: theme('spacing.16'),
+            // marginBottom: theme('spacing.4'),
             color: 'var(--tw-prose-headings)',
             fontWeight: theme('fontWeight.bold'),
           },
           h3: {
             fontSize: theme('fontSize.xl')[0],
-            marginTop: theme('spacing.12'),
-            marginBottom: theme('spacing.4'),
+            // marginTop: theme('spacing.12'),
+            // marginBottom: theme('spacing.4'),
             color: 'var(--tw-prose-headings)',
-            fontWeight: theme('fontWeight.semibold'),
+            fontWeight: theme('fontWeight.bold'),
           },
-          ':is(h2, h3) + *': {
+          h4: {
+            fontSize: theme('fontSize.lg')[0],
+            // marginTop: theme('spacing.10'),
+            // marginBottom: theme('spacing.4'),
+            color: 'var(--tw-prose-headings)',
+            // fontWeight: theme('fontWeight.semibold'),
+          },
+          ':is(h2, h3, h4) + *': {
             marginTop: 0,
           },
 
