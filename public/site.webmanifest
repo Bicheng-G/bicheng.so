@@ -2,7 +2,7 @@
     "name": "Bicheng Gu",
     "icons": [
         {
-            "src": "app/icon1.svg",
+            "src": "/icon.svg",
             "sizes": "48x48 72x72 96x96 128x128 150x150 256x256 512x512 1024x1024",
             "type": "image/svg+xml",
             "purpose": "any"

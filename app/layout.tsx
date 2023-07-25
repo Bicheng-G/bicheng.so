@@ -73,6 +73,9 @@ export default function RootLayout({
         className={`${sansFont.variable} m-0 h-full p-0 font-sans antialiased`}
         suppressHydrationWarning
       >
+        <head>
+          <link rel="icon" href="public/icon.svg?v=2" type="image/svg+xml"/>
+        </head>
         <body className="flex h-full flex-col">
           <ThemeProvider
             attribute="class"
