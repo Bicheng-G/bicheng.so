@@ -1,4 +1,5 @@
 import { type Metadata } from 'next'
+import Balancer from 'react-wrap-balancer'
 
 import { Projects } from '~/app/(main)/projects/Projects'
 import { Container } from '~/components/ui/Container'
@@ -28,7 +29,7 @@ export default function ProjectsPage() {
           My Project Adventures
         </h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I&apos;ve been working on a variety of small projects, and this is a collection of the ones I think are pretty good. It&apos;s the best testament to my attempts and explorations in the tech field.
+          <Balancer>{description}</Balancer>
         </p>
       </header>
       <div className="mt-16 sm:mt-20">
