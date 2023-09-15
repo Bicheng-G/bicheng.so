@@ -93,7 +93,7 @@ export function Headline() {
           <br />
           <br />
           <i>
-          P.S. Ever signed a digital guestbook? Just sign in and leave a message <a href="https://bicheng.me/guestbook" target="_blank" style={{color: 'blue'}}><b>here</b></a>. Who knows, our next great conversation might just start there.
+          P.S. Ever signed a digital guestbook? <a href="https://bicheng.me/guestbook" target="_blank" style={{textDecoration: 'none', paddingBottom: '1px', borderBottom: '1px solid #8d8df3'}}>Just sign in and leave a message</a>. Who knows, our next great conversation might just start there.
           </i> 
         </Balancer>
       </motion.p>
