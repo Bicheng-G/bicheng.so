@@ -5,17 +5,18 @@ import { Container } from '~/components/ui/Container'
 
 import { BlogPosts } from './BlogPosts'
 
+const title = 'Blog'
 const description =
   "Recently, I was inspired by Shawn Wang (@swyx) and his concept of 'learning in public'. I've decided to start consolidating my knowledge and producing exhaust. The topics I'm interested in will mainly revolve around products, AI, data, self-actualization, metacognition, and parenting."
 export const metadata = {
-  title: 'My Blog',
+  title,
   description,
   openGraph: {
-    title: 'My Blog',
+    title,
     description,
   },
   twitter: {
-    title: 'My Blog',
+    title,
     description,
     card: 'summary_large_image',
   },

@@ -80,17 +80,21 @@ export function Headline() {
         }}
       >
         <Balancer>
-          Hi, I am Bicheng. I graduated from the National University of Singapore (NUS) with a degree in Business Analytics. Today, with 3 years of experience in launching digital product, I channel my analytical skills into my current role as a Senior Product Analyst. I&apos;m laser-focused on honing my product management skills with the aspiration to become a Product Manager.
+          Hi, I am <strong>Bicheng</strong>. I graduated from the National University of Singapore (NUS) with a degree in Business Analytics. With 3 years of experience in launching digital products, I currently apply my analytical expertise in my role as a Senior Product Analyst. I&apos;m laser-focused on honing my product management skills with the aspiration to become a Product Manager.
           <br />
           <br />
-          My proudest title to date? &quot;Diaper Changer&quot; for a lively 2-year-old who ceaselessly reminds me of life&apos;s simple joys and the importance of responsibility.
+          My proudest title to date? &apos;<strong>Diaper Changer</strong>&apos; for a lively 2-year-old who constantly reminds me of life&apos;s simple joys and the importance of responsibility.
           <br />
           <br />
-          With a passion for our furry companions, I founded &quot;Pet Parents Club&quot;, a pet supply venture born out of love for our furry friends. Though its journey has come to a pause, the experience was invaluable. Much like the ethos behind &quot;B for Benevolent&quot;, I stand firm in my belief in the subtle yet impactful power of goodwill and sincere engagement, both in professional occasions and everyday encounters.  
+          Motivated by my passion for our furry friends, I took a leap and founded the &apos;Pet Parents Club&apos;. We aimed for top-notch chew toys and cozy beds. While we&apos;ve hit the &apos;paws&apos; button for now, the journey was nothing short of enlightening. Inspired by the ethos of &apos;B for Benevolent&apos;, I deeply value the power of goodwill and genuine engagement in both professional and personal encounters.
           <br />
           <br />
-          Thank you for stopping by, and I hope my learning exhausts prove valuable to you.
-
+          Thank you for stopping by. I hope it was a valuable pause in your day.
+          <br />
+          <br />
+          <i>
+          P.S. Ever signed a digital guestbook? Just sign in and leave a message <a href="https://bicheng.me/guestbook" target="_blank" style={{color: 'blue'}}><b>here</b></a>. Who knows, our next great conversation might just start there.
+          </i> 
         </Balancer>
       </motion.p>
       <motion.div

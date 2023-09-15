@@ -4,7 +4,7 @@ import Balancer from 'react-wrap-balancer'
 import { Projects } from '~/app/(main)/projects/Projects'
 import { Container } from '~/components/ui/Container'
 
-const title = 'My Projects'
+const title = 'Projects'
 const description =
   "I've been working on a variety of small projects, and this is a collection of the ones I think are pretty good. It's the best testament to my attempts and explorations in the tech field."
 export const metadata = {
