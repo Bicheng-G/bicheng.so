@@ -53,7 +53,7 @@ export function Headline() {
   return (
     <div className="max-w-2xl">
       <motion.h1
-        className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl w-screen"
+        className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl sm:w-max"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -80,16 +80,17 @@ export function Headline() {
         }}
       >
         <Balancer>
-          Hi, I am Bicheng. I graduated from the National University of Singapore (NUS) with a degree in Business Analytics. Today, with 3 years of experience in launching digital product, I channel my analytical skills into my current role as a Senior Product Analyst. I`&apos;`m laser-focused on honing my product management skills with the aspiration to become a Product Manager.
+          Hi, I am Bicheng. I graduated from the National University of Singapore (NUS) with a degree in Business Analytics. Today, with 3 years of experience in launching digital product, I channel my analytical skills into my current role as a Senior Product Analyst. I&apos;m laser-focused on honing my product management skills with the aspiration to become a Product Manager.
           <br />
           <br />
-          My proudest title to date? `&quot;`Diaper Changer`&quot;` for a lively 2-year-old who ceaselessly reminds me of life`&apos;`s simple joys and the importance of responsibility.
+          My proudest title to date? &quot;Diaper Changer&quot; for a lively 2-year-old who ceaselessly reminds me of life&apos;s simple joys and the importance of responsibility.
           <br />
           <br />
-          With a passion for our furry companions, I founded `&quot;`Pet Parents Club`&quot;`, a pet supply venture born out of love for our furry friends. Though its journey has come to a pause, the experience was invaluable. Much like the ethos behind `&quot;`B for Benevolent`&quot;`, I stand firm in my belief in the subtle yet impactful power of goodwill and sincere engagement, both in professional occasions and everyday encounters.  
+          With a passion for our furry companions, I founded &quot;Pet Parents Club&quot;, a pet supply venture born out of love for our furry friends. Though its journey has come to a pause, the experience was invaluable. Much like the ethos behind &quot;B for Benevolent&quot;, I stand firm in my belief in the subtle yet impactful power of goodwill and sincere engagement, both in professional occasions and everyday encounters.  
           <br />
           <br />
           Thank you for stopping by, and I hope my learning exhausts prove valuable to you.
+
         </Balancer>
       </motion.p>
       <motion.div
