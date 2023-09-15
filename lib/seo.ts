@@ -1,5 +1,5 @@
 export const seo = {
-  title: 'Bicheng Gu | Explorer, Diaper Changer',
+  title: 'Bicheng Gu | B for Benevolent',
   description:
     '',
   url: new URL(
