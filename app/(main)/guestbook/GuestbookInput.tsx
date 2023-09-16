@@ -201,7 +201,7 @@ export function GuestbookInput() {
               message.length > 0 ? 'opacity-100' : 'opacity-0'
             )}
           >
-            支持 <b>Markdown</b> 与{' '}
+            Supports <b>Markdown</b> and{' '}
             <RichLink
               favicon={false}
               href="https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"
@@ -231,7 +231,7 @@ export function GuestbookInput() {
                 </span>
 
                 <ElegantTooltip
-                  content={isPreviewing ? '关闭预览' : '预览一下'}
+                  content={isPreviewing ? 'Back to edit' : 'Preview'}
                 >
                   <motion.button
                     className="appearance-none"
@@ -249,7 +249,7 @@ export function GuestbookInput() {
                   </motion.button>
                 </ElegantTooltip>
 
-                <ElegantTooltip content="发送">
+                <ElegantTooltip content="Send">
                   <motion.button
                     className="appearance-none"
                     whileHover={{ scale: 1.05 }}
