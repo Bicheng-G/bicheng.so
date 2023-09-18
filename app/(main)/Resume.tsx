@@ -2,7 +2,8 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import bokeLivingLogo from '~/assets/company/bokeliving.png'
+import ppcLogo from '~/assets/company/PPC.png'
+// import bokeLivingLogo from '~/assets/company/bokeliving.png'
 // import abletiveLogo from '~/assets/company/abletive.png'
 // import vvsLogo from '~/assets/company/vvs.png'
 import tagrainLogo from '~/assets/company/tagrain.png'
@@ -36,9 +37,9 @@ const resume: Resume[] = [
     },
   },
   {
-    company: 'Boke Living',
-    title: 'Self Employed',
-    logo: bokeLivingLogo,
+    company: 'Pet Parents Club',
+    title: 'Co-Founder',
+    logo: ppcLogo,
     start: '2019',
     end: '2020',
   }

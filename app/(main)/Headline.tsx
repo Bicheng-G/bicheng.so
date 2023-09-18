@@ -80,20 +80,20 @@ export function Headline() {
         }}
       >
         <Balancer>
-          Hi, I am <strong>Bicheng</strong>. I graduated from the National University of Singapore (NUS) with a degree in Business Analytics. With 3 years of experience in launching digital products, I currently apply my analytical expertise in my role as a Senior Product Analyst. I&apos;m laser-focused on honing my product management skills with the aspiration to become a Product Manager.
+          Hi, I am <strong>Bicheng</strong>. I graduated from the National University of Singapore (NUS) with a degree in Business Analytics. With 3 years of experience in launching digital products, I currently apply my analytical expertise in my role as a <a href="https://www.linkedin.com/in/bicheng-gu" target="_blank" style={{textDecoration: 'none', paddingBottom: '1px', borderBottom: '1px solid #8d8df3'}}>Senior Product Analyst</a>. I&apos;m laser-focused on honing my product management skills with the aspiration to become a Product Manager.
           <br />
           <br />
-          My proudest title to date? &apos;<strong>Diaper Changer</strong>&apos; for a lively 2-year-old who constantly reminds me of life&apos;s simple joys and the importance of responsibility.
+          My proudest title to date? <strong>Diaper Changer</strong> for a lively 2-year-old who constantly reminds me of life&apos;s simple joys and the importance of responsibility.
           <br />
           <br />
-          Motivated by my passion for our furry friends, I took a leap and founded the &apos;Pet Parents Club&apos;. We aimed for top-notch chew toys and cozy beds. While we&apos;ve hit the &apos;paws&apos; button for now, the journey was nothing short of enlightening. Inspired by the ethos of &apos;B for Benevolent&apos;, I deeply value the power of goodwill and genuine engagement in both professional and personal encounters.
+          Motivated by a passion for our furry friends, I took a leap and co-founded the &apos;<a href="https://shopee.sg/petparentsclub" target="_blank" style={{textDecoration: 'none', paddingBottom: '1px', borderBottom: '1px solid #8d8df3'}}>Pet Parents Club</a>&apos;. We aimed for top-notch chew toys and cozy beds. While I&apos;ve hit the &apos;paws&apos; button for now, the journey was nothing short of enlightening. Inspired by the ethos of &apos;B for Benevolent&apos;, I deeply value the power of goodwill and genuine engagement in both professional and personal encounters.
           <br />
           <br />
           Thank you for stopping by. I hope it was a valuable pause in your day.
           <br />
           <br />
           <i>
-          P.S. Ever signed a digital guestbook? <a href="https://bicheng.me/guestbook" target="_blank" style={{textDecoration: 'none', paddingBottom: '1px', borderBottom: '1px solid #8d8df3'}}>Just sign in and leave a message</a>. Who knows, our next great conversation might just start there.
+          P.S. Ever signed a digital guestbook? <a href="https://bicheng.me/guestbook" style={{textDecoration: 'none', paddingBottom: '1px', borderBottom: '1px solid #8d8df3'}}>Just sign in and leave a message</a>. Who knows, our next great conversation might just start there.
           </i> 
         </Balancer>
       </motion.p>

@@ -36,7 +36,7 @@ const ConfirmSubscriptionEmail = ({ link = 'link.com/confirm?fake-token' }) => {
         </Button>
       </Section>
       <Text className="text-[14px] leading-[24px] text-black">
-        or copy the link and open in browser：
+        or copy the link and open in browser:
         <br />
         <Link href={link} className="text-blue-600 no-underline">
           {link}
