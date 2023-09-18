@@ -204,7 +204,7 @@ export function GuestbookInput() {
             Supports <b>Markdown</b> and{' '}
             <RichLink
               favicon={false}
-              href="https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"
+              href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"
               className="font-bold hover:underline"
             >
               GFM
