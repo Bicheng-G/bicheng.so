@@ -69,7 +69,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html
-        lang="en_SG"
+        lang="en"
         className={`${sansFont.variable} m-0 h-full p-0 font-sans antialiased`}
         suppressHydrationWarning
       >
