@@ -9,7 +9,7 @@ import { Tooltip } from '~/components/ui/Tooltip'
 
 const themes = [
   {
-    label: '浅Light mode',
+    label: 'Light mode',
     value: 'light',
     icon: SunIcon,
   },
