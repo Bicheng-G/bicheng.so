@@ -18,7 +18,7 @@ const alts = [
   'I created the brand Pet Parents Club',
   'Charity event for pets',
   'Austrilia trip, sky diving',
-  'Me on helicopter',
+  'My son and F-15SG fighter jet',
   'Love the level of concentration at night',
 ]
 
