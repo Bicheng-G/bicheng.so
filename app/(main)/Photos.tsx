@@ -7,19 +7,19 @@ import React from 'react'
 import image6 from '~/assets/highlights/548575.webp'
 import image3 from '~/assets/highlights/IMG_0259.webp'
 import image1 from '~/assets/highlights/IMG_2107.webp'
-import image5 from '~/assets/highlights/IMG_4846.webp'
+import image5 from '~/assets/highlights/IMG_5656.webp'
 import image2 from '~/assets/highlights/IMG_6304.webp'
 import image4 from '~/assets/highlights/IMG_7682.webp'
 
 const images = [image1, image2, image3, image4, image5, image6]
 const alts = [
   
-  'My first Fathers Day',
-  'I created the brand Pet Parents Club',
-  'Charity event for pets',
-  'Austrilia trip, sky diving',
-  'Baby thinking of life',
-  'Love the level of concentration at night',
+  'First Fathers Day',
+  'Pet Parents Club',
+  'Charity for pets',
+  'Skydive',
+  'RSAF F15SG',
+  'Working at Night',
 ]
 
 export function Photos() {
