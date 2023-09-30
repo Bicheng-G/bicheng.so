@@ -4,12 +4,12 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
 
-import image6 from '~/assets/highlights/548575.jpeg'
-import image3 from '~/assets/highlights/IMG_0259.jpeg'
-import image1 from '~/assets/highlights/IMG_2107.jpg'
-import image5 from '~/assets/highlights/IMG_7293.jpg'
-import image4 from '~/assets/highlights/IMG_7682.jpg'
-import image2 from '~/assets/highlights/PPC.png'
+import image6 from '~/assets/highlights/548575.webp'
+import image3 from '~/assets/highlights/IMG_0259.webp'
+import image1 from '~/assets/highlights/IMG_2107.webp'
+import image5 from '~/assets/highlights/IMG_4846.webp'
+import image2 from '~/assets/highlights/IMG_6304.webp'
+import image4 from '~/assets/highlights/IMG_7682.webp'
 
 const images = [image1, image2, image3, image4, image5, image6]
 const alts = [
@@ -18,7 +18,7 @@ const alts = [
   'I created the brand Pet Parents Club',
   'Charity event for pets',
   'Austrilia trip, sky diving',
-  'My son and F-15SG fighter jet',
+  'Baby thinking of life',
   'Love the level of concentration at night',
 ]
 

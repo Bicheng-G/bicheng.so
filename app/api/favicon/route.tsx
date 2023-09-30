@@ -11,8 +11,8 @@ function getKey(url: string) {
 }
 
 const faviconMapper: { [key: string]: string } = {
-  '((?:zolplay.cn)|(?:zolplay.com)|(?:cn.zolplay.com))':
-    'https://bicheng.me/favicons/zolplay.png',
+  '(?:bicheng.me)':
+    'https://bicheng.me/favicons/bicheng.png',
   '(?:github.com)': 'https://bicheng.me/favicons/github.png',
   '((?:t.co)|(?:twitter.com))': 'https://bicheng.me/favicons/twitter.png',
   'coolshell.cn': 'https://bicheng.me/favicons/coolshell.png',
