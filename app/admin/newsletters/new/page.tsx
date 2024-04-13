@@ -9,6 +9,7 @@ import { emailConfig } from '~/config/email'
 import { db } from '~/db'
 import { newsletters, subscribers } from '~/db/schema'
 import NewslettersTemplate from '~/emails/NewslettersTemplate'
+import { env } from '~/env.mjs'
 import { resend } from '~/lib/mail'
 
 extendDateTime({
@@ -36,13 +37,13 @@ export default function CreateNewsletterPage() {
     const subscriberEmails = new Set([
       ...subs
         .filter((sub) => typeof sub.email === 'string' && sub.email.length > 0)
-        .map((sub) => sub.email!),
+        .map((sub) => sub.email),
     ])
 
-    await resend.sendEmail({
+    await resend.emails.send({
       subject: data.subject,
       from: emailConfig.from,
-      to: 'bicheng.gu@yahoo.com',
+      to: env.SITE_NOTIFICATION_EMAIL_TO ?? [],
       reply_to: emailConfig.from,
       bcc: Array.from(subscriberEmails),
       react: NewslettersTemplate({

@@ -1,4 +1,4 @@
-import { ImageResponse, type NextRequest, NextResponse } from 'next/server'
+import { type NextRequest, NextResponse } from 'next/server'
 
 import { env } from '~/env.mjs'
 import { ratelimit } from '~/lib/redis'
@@ -28,19 +28,4 @@ export async function GET(req: NextRequest) {
   imageUrl.searchParams.set('height', height.toString())
   imageUrl.searchParams.set('ttl', '86400')
 
-  return new ImageResponse(
-    (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
-        src={imageUrl.toString()}
-        alt={`Preview of ${url}`}
-        width={width}
-        height={height}
-      />
-    ),
-    {
-      width,
-      height,
-    }
-  )
 }
