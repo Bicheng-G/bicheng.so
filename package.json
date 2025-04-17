@@ -1,5 +1,5 @@
 {
-  "name": "cali.so",
+  "name": "bicheng.me",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.29.9",
+    "@clerk/nextjs": "^4.31.8",
     "@headlessui/react": "^1.7.18",
     "@hookform/resolvers": "^3.3.4",
     "@mdx-js/loader": "^2.3.0",
