@@ -3,7 +3,7 @@ import './clerk.css'
 import './prism.css'
 
 import { ClerkProvider } from '@clerk/nextjs'
-import { type Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 
 import { ThemeProvider } from '~/app/(main)/ThemeProvider'
 import { url } from '~/lib'
@@ -19,10 +19,6 @@ export const metadata: Metadata = {
   },
   description: seo.description,
   keywords: 'Bicheng, Gu Bicheng, Bicheng Gu',
-  themeColor: [
-    { media: '(prefers-color-scheme: dark)', color: '#000212' },
-    { media: '(prefers-color-scheme: light)', color: '#fafafa' },
-  ],
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -59,6 +55,13 @@ export const metadata: Metadata = {
       'application/rss+xml': [{ url: 'rss', title: 'RSS Subscribe' }],
     },
   },
+}
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: dark)', color: '#000212' },
+    { media: '(prefers-color-scheme: light)', color: '#fafafa' },
+  ],
 }
 
 export default function RootLayout({
