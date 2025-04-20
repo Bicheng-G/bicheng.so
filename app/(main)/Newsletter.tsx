@@ -79,18 +79,16 @@ export function Newsletter({ subCount }: { subCount?: string }) {
       <input type="hidden" className="hidden" {...register('formId')} />
       <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <TiltedSendIcon className="h-5 w-5 flex-none" />
-        <span className="ml-2">Subscribe to Newsletter</span>
+        <span className="ml-2">Newsletter</span>
       </h2>
       <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
-        <span>Enjoy my content? </span>
+        <span>Want to stay updated? Subscribe to my newsletter.</span>
         <br />
         {subCount && (
           <span>
-             Subscribe and join the other <span className="font-medium">{subCount}</span> subscribers. 🫶
+             Join the other <span className="font-medium">{subCount}</span> subscribers. 🫶
           </span>
         )}
-        <br />
-        <span><i>Get sporadic updates, opt out anytime.</i></span>
       </p>
       <AnimatePresence mode="wait">
         {!isSubscribed ? (

@@ -25,12 +25,12 @@ const nextConfig = {
     return [
       {
         "source": "/twitter",
-        "destination": "https://x.com/",
+        "destination": "https://x.com/0xAilurus",
         "permanent": true
       },
       {
         "source": "/x",
-        "destination": "https://x.com/",
+        "destination": "https://x.com/0xAilurus",
         "permanent": true
       },
       {
@@ -50,7 +50,7 @@ const nextConfig = {
       },
       {
         "source": "/github",
-        "destination": "https://github.com/e",
+        "destination": "https://github.com/Bicheng-G",
         "permanent": true
       },
       {
