@@ -13,7 +13,7 @@ import { resend } from '~/lib/mail'
 import { redis } from '~/lib/redis'
 
 const newsletterFormSchema = z.object({
-  email: z.string().email().nonempty(),
+  email: z.string().email().min(1),
 })
 
 const ratelimit = new Ratelimit({
