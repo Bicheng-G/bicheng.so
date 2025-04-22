@@ -8,7 +8,7 @@ import { Guestbook } from './Guestbook'
 
 const title = 'Guestbook'
 const description =
-  "Ever signed a digital guestbook? Do sign in and leave your mark. Who knows, our next great conversation might just start here."
+  "Ever signed a digital guestbook? Do sign in and say hello. Who knows, our next great conversation might just start here."
 export const metadata = {
   title,
   description,
@@ -30,7 +30,7 @@ export default async function GuestBookPage() {
     <Container className="mt-16 sm:mt-32">
       <header className="max-w-2xl">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          Leave a Message
+          Leave Your Mark!
         </h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           <Balancer>{description}</Balancer>

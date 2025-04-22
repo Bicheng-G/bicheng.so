@@ -14,10 +14,17 @@ type Resume = {
 export function Resume({ resume }: { resume: Resume[] }) {
   return (
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-      <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BriefcaseIcon className="h-5 w-5 flex-none" />
-        <span className="ml-2">Experience</span>
-      </h2>
+      {/* New container for heading and resume link */}
+      <div className="flex items-center justify-between mb-6"> {/* Added flex classes here */}
+        <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+          <BriefcaseIcon className="h-5 w-5 flex-none" />
+          <span className="ml-2">Experience</span>
+        </h2>
+        {/* Moved Resume link here and simplified container */}
+        <span className="text-sm"> {/* Added text-sm for size consistency if needed */}
+           <a href="https://cv.bicheng.me" target="_blank" className="no-underline pb-0.5 border-b border-blue-400 hover:border-b-2 dark:border-lime-400">Resume↗ </a>
+        </span>
+      </div>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
