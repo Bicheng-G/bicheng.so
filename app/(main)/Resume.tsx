@@ -22,7 +22,7 @@ export function Resume({ resume }: { resume: Resume[] }) {
         </h2>
         {/* Moved Resume link here and simplified container */}
         <span className="text-sm"> {/* Added text-sm for size consistency if needed */}
-           <a href="https://cv.bicheng.me" target="_blank" className="no-underline pb-0.5 border-b border-blue-400 hover:border-b-2 dark:border-lime-400">Resume↗ </a>
+           <a href="https://cv.spot.bicheng.me" target="_blank" className="no-underline pb-0.5 border-b border-blue-400 hover:border-b-2 dark:border-lime-400">Resume↗ </a>
         </span>
       </div>
       <ol className="mt-6 space-y-4">

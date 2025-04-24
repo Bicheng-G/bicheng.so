@@ -44,7 +44,7 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://bicheng.me"
+                  href="https://spot.bicheng.me"
                   className="text-zinc-700 underline"
                 >
                   <strong>Bicheng Gu</strong>
@@ -54,28 +54,28 @@ export default function Layout({
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://bicheng.me/twitter"
+                  href="https://spot.bicheng.me/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://bicheng.me/linkedin"
+                  href="https://spot.bicheng.me/linkedin"
                   className="text-xs text-zinc-600 underline"
                 >
                   Linkedin
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://bicheng.me/github"
+                  href="https://spot.bicheng.me/github"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 {/* |&nbsp;
                 <Link
-                  href="https://bicheng.me/bilibili"
+                  href="https://spot.bicheng.me/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩

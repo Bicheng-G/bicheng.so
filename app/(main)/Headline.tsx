@@ -98,27 +98,27 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://bicheng.me/twitter"
+          href="https://spot.bicheng.me/twitter"
           aria-label="twitter"
           platform="twitter"
         />
         {/* <SocialLink
-          href="https://bicheng.me/youtube"
+          href="https://spot.bicheng.me/youtube"
           aria-label="youtube"
           platform="youtube"
         /> */}
         <SocialLink
-          href="https://bicheng.me/linkedin"
+          href="https://spot.bicheng.me/linkedin"
           aria-label="linkedin"
           platform="linkedin"
         />
         <SocialLink
-          href="https://bicheng.me/github"
+          href="https://spot.bicheng.me/github"
           aria-label="github"
           platform="github"
         />
         {/* <SocialLink
-          href="https://bicheng.me/tg"
+          href="https://spot.bicheng.me/tg"
           aria-label="telegram"
           platform="telegram"
         /> */}

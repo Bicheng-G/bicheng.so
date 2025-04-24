@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: 'Bicheng Gu',
     locale: 'en_SG',
     type: 'website',
-    url: 'https://bicheng.me',
+    url: 'https://spot.bicheng.me',
   },
   twitter: {
     site: '@0xAilurus',

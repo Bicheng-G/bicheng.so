@@ -4,7 +4,7 @@ export const seo = {
     "I'm Bicheng, a Product Manager passionate about self-actualization, metacognition, and parenting.",
   url: new URL(
     process.env.NODE_ENV === 'production'
-      ? 'https://bicheng.me'
+      ? 'https://spot.bicheng.me'
       : 'http://localhost:3000'
   ),
 } as const

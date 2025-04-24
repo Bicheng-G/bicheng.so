@@ -12,13 +12,13 @@ function getKey(url: string) {
 }
 
 const faviconMapper: { [key: string]: string } = {
-  '(?:bicheng.me)':
-    'https://bicheng.me/favicons/bicheng.png',
-  '(?:github.com)': 'https://bicheng.me/favicons/github.png',
-  '((?:t.co)|(?:twitter.com))': 'https://bicheng.me/favicons/twitter.png',
-  'coolshell.cn': 'https://bicheng.me/favicons/coolshell.png',
-  'vercel.com': 'https://bicheng.me/favicons/vercel.png',
-  'nextjs.org': 'https://bicheng.me/favicons/nextjs.png',
+  '(?:spot.bicheng.me)':
+    'https://spot.bicheng.me/favicons/bicheng.png',
+  '(?:github.com)': 'https://spot.bicheng.me/favicons/github.png',
+  '((?:t.co)|(?:twitter.com))': 'https://spot.bicheng.me/favicons/twitter.png',
+  'coolshell.cn': 'https://spot.bicheng.me/favicons/coolshell.png',
+  'vercel.com': 'https://spot.bicheng.me/favicons/vercel.png',
+  'nextjs.org': 'https://spot.bicheng.me/favicons/nextjs.png',
 }
 
 function getPredefinedIconForUrl(url: string): string | undefined {
@@ -62,7 +62,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.error()
   }
 
-  let iconUrl = 'https://bicheng.me/favicon_blank.png'
+  let iconUrl = 'https://spot.bicheng.me/favicon_blank.png'
 
   try {
     const predefinedIcon = getPredefinedIconForUrl(url)
